@@ -23,7 +23,6 @@ ___
 ___
 ## Table of contents
 * [Overview](#overview)
-* [Configuration](#configuration)
 * [Routes](#routes)
 	* [Server Endpoints - MongoDB/MLab](#mongo)
 	* [Server Endpoints - GitHub API](#github)
@@ -37,31 +36,8 @@ ___
 <a id="overview"></a>
 ## Overview
 
-This app uses authentication by oAuth,
-This app draws from Canvas, and Githunb API's,
-This app is made to streamline the workflow for students and teachers of CodeFellows.
-The problem being solved is that resources required for schoolwork are wide spread.
-The solution is to bring all those resources to one place.
+Code Academy learning platform (similar to HackerRank, LeetCode, CodeWars, etc.) tailored to the CodeFellows curriculum. Planned launch - Winter 2018.
 
-<a id="configuration"></a>
-## Configuration, Tech/Framework Used
-
-* written in JavaScript ES6
-* babel-env
-* babel-eslint
-* babel-register
-* bcrypt
-* cors
-* dotenv
-* eslint
-* express
-* jest
-* jsonwebtoken
-* mongoose
-* morgan
-* nel
-* require-dir
-* superagent
 ___
 <a id="routes"></a>
 ## Routes
