@@ -203,31 +203,8 @@ ___
 ```
 
 ___
-   
- ## User Stories 
- > ***1. As a user, I want a link on each Canvas assignment that re-directs me to the corresponding ShredFellows page.***
-
- - This link needs to pass to ShredFellows the course & assignment IDs.
-
-> ***2. As a user, I want to be able to easily login through the Canvas OAuth utility.***
-
- - When the link is clicked from the Canvas assignment, it will first go through the OAuth workflow to authenticate/authorize the user. 
- - [Relevant OAuth documentation from Canvas](https://canvas.instructure.com/doc/api/file.oauth.html)
-
-> ***3. As a user, once finished with the assignment, I want to be able to submit it back to Canvas with one click of a button.***
-
-- This will be accomplished with a simple ajax post back to the canvas API. For example,
-> ### POST /api/v1/courses/:course_id/assignments/:assignment_id/submissions
-
- - Submission body will be taken from REPL form field (or alternatively, as a URL for that ShredFellows page, which would require some kind of admin priviliges to view all students' pages). 
- - More info on post body and parameters can be found [here](https://canvas.instructure.com/doc/api/submissions.html).
-___
 
 ## Authors
 
-Khalil Ahmed, Jen Bach, Jason Burns, Timea Heidenreich, Ben Hurst, Justin Morris, Ovi Parasca, Michael Sklepowich
-
-## Credits
-
-To John Cokos and Catherine Looper for the research, help and guidance
+Ben Hurst, Justin Morris
 
