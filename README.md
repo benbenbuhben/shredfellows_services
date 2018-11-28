@@ -32,7 +32,6 @@ ___
 	* [User Model](#user-model)
 	* [Profiles Model](#profiles-model)
 	* [Assignment Model](#ass-model)
-* [Further Work](#further-work)
 
 ___
 <a id="overview"></a>
@@ -257,12 +256,6 @@ ___
  - Submission body will be taken from REPL form field (or alternatively, as a URL for that ShredFellows page, which would require some kind of admin priviliges to view all students' pages). 
  - More info on post body and parameters can be found [here](https://canvas.instructure.com/doc/api/submissions.html).
 ___
-
-<a id="futher-work"></a>
-## TODO
-
-- create front end
-- increase test coverage
 
 ## Authors
 
