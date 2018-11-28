@@ -11,12 +11,6 @@ ___
 **TRAVIS BUILD:** [https://travis-ci.com/shredfellows/services](https://travis-ci.com/shredfellows/services)
 
 ___
-
-## Branches
-  * [dev-branch]
-  * [staging-branch]
-  
-___
 ## Table of contents
 * [Overview](#overview)
 * [Routes](#routes)
